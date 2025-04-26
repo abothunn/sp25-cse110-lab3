@@ -34,12 +34,12 @@ button:active{
 }
 
 li{
-    color: hsl(39, 100%, 50%);
+    color: hsl(39 100% 50%);
     margin-left: 2cm; /* long hand margin */
 }
 
 form{
-    color: color(red 1 0 0);
+    color: color(display-p3 1 0 0);
     padding: 20px 0px 20px 0px; /* short hand padding */
 }
 
