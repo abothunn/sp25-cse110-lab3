@@ -1,0 +1,159 @@
+/* here is my first css comment */ 
+
+h1{
+    color: rgb(100, 149, 237);
+    font-size: 40px;
+    position: relative;
+}
+
+h2{
+    color: lightcoral;
+    margin: 0px 0px 0px 25px; /*short hand margin */
+}
+
+h3{
+    color: #01796F;
+}
+
+p{
+    color: #B2AC88;
+    
+}
+
+button{
+    color: color-mix(in srgb, red 50%, blue 100%);
+}
+
+button:hover{
+    color: orange;
+}
+
+button:active{
+    background-color: black;
+    color: yellow;
+}
+
+li{
+    color: hsl(39, 100%, 50%);
+    margin-left: 2cm; /* long hand margin */
+}
+
+form{
+    color: color(display-p3 1 0 0);
+    padding: 20px 0px 20px 0px; /* short hand padding */
+}
+
+
+body{
+    background: white; /* Fallback */
+    background-color: beige;
+    width: 99%;
+
+    
+}
+
+main{
+    font-size: 1em;
+    padding-left: 3rem; /*long hand padding*/
+    margin-top: 1rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 0px;
+    margin: auto;
+}
+
+header{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 100px;
+    text-align: center;
+    text-decoration: underline;
+    height: 150px;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 0px;
+    max-width: 2000px;
+    min-width: 40px;
+    background-color: white;
+}
+
+div{
+    display: inline;
+}
+
+a{
+    display: block;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.names{
+    background-color: yellow;
+}
+
+#agenda{
+    color: red;
+}
+
+h3, h2, h1{
+    text-decoration: underline;
+}
+
+*{
+    /*font*/
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+}
+
+input[type="text"]{
+    border: 2px dotted Black;
+}
+
+section p{
+    color:darkgreen;
+}
+
+section{
+    p{
+        font-weight: bolder;
+    }
+}
+
+body > main {
+    background-color: lightpink;
+}
+
+h3 ~ p{
+    text-decoration: underline;
+}
+
+h1 + p{
+    color: black;
+}
+
+p.names{
+    font-weight:900;
+}
+
+section:has(p){
+    border: 1px dotted black;
+}
+
+
